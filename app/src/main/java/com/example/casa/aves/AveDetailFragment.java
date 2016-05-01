@@ -1,12 +1,13 @@
 package com.example.casa.aves;
 
 import android.app.Activity;
-import android.support.design.widget.CollapsingToolbarLayout;
 import android.os.Bundle;
+import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.casa.aves.dummy.Lista_contenido;
@@ -59,11 +60,12 @@ public class AveDetailFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.ave_detail, container, false);
 
-        // Show the dummy textoEncima as text in a TextView.
-        if (mItem != null) {
-            ((TextView) rootView.findViewById(R.id.ave_detail)).setText(mItem.textodDebajo);
-        }
-
+            //Mostramos el contenido al usuario
+            if (mItem != null) {
+                ((TextView) rootView.findViewById(R.id.textView_superior)).setText(mItem.textoEncima);
+                ((TextView) rootView.findViewById(R.id.textView_inferior)).setText(mItem.textoDebajo);
+                ((ImageView) rootView.findViewById(R.id.imageView_imagen)).setImageResource(mItem.idImagen);
+            }
         return rootView;
     }
 }

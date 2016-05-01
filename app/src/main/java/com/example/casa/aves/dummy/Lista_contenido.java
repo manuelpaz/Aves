@@ -55,13 +55,13 @@ public class Lista_contenido {
         public String id;
         public int idImagen;
         public String textoEncima;
-        public String textodDebajo;
+        public String textoDebajo;
 
-        public Lista_entrada(String id,int idImagen,String textoEncima, String textodDebajo) {
+        public Lista_entrada(String id,int idImagen,String textoEncima, String textoDebajo) {
             this.id = id;
             this.idImagen = idImagen;
             this.textoEncima = textoEncima;
-            this.textodDebajo = textodDebajo;
+            this.textoDebajo = textoDebajo;
         }
 
         @Override

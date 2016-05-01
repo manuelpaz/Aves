@@ -14,7 +14,7 @@ import android.view.MenuItem;
 /**
  * An activity representing a single Ave detail screen. This
  * activity is only used narrow width devices. On tablet-size devices,
- * item textodDebajo are presented side-by-side with a list of items
+ * item textoDebajo are presented side-by-side with a list of items
  * in a {@link AveListActivity}.
  */
 public class AveDetailActivity extends AppCompatActivity {
@@ -71,7 +71,7 @@ public class AveDetailActivity extends AppCompatActivity {
             // This ID represents the Home or Up button. In the case of this
             // activity, the Up button is shown. Use NavUtils to allow users
             // to navigate up one level in the application structure. For
-            // more textodDebajo, see the Navigation pattern on Android Design:
+            // more textoDebajo, see the Navigation pattern on Android Design:
             //
             // http://developer.android.com/design/patterns/navigation.html#up-vs-back
             //

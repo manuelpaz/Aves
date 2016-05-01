@@ -24,8 +24,8 @@ import java.util.List;
  * has different presentations for handset and tablet-size devices. On
  * handsets, the activity presents a list of items, which when touched,
  * lead to a {@link AveDetailActivity} representing
- * item textodDebajo. On tablets, the activity presents the list of items and
- * item textodDebajo side-by-side using two vertical panes.
+ * item textoDebajo. On tablets, the activity presents the list of items and
+ * item textoDebajo side-by-side using two vertical panes.
  */
 public class AveListActivity extends AppCompatActivity {
 
